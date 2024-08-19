@@ -18,7 +18,7 @@ body {
 
 
 .main-header {
-    /* background-color: white; */
+   
     padding: 1rem 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -42,9 +42,8 @@ body {
     max-width: 250px;
 }
 
-/* Dostosowanie marginesu hero, aby uwzględnić nagłówek */
 .hero {
-    margin-top: 10px; /* dostosowanie wartości w zależności od wysokości nagłówka */
+    margin-top: 10px;
     background-image: url('src/assets/heroImage.png');
     background-size: cover;
     background-position: center;
@@ -60,9 +59,9 @@ body {
 .hero-content {
     max-width: 600px;
 
-    background-color: rgba(0, 0, 0, 0.6); /* Czarny kolor z przezroczystością 60% */
-    padding: 20px; /* Margines wewnętrzny dla tekstu */
-    border-radius: 10px; /* Zaokrąglone rogi */
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px; 
     display: inline-block; /* Dostosowuje rozmiar tła do zawartości */
 }
 
@@ -117,10 +116,6 @@ body {
 .orange {
     color: #fa3211;
 }
-
-
-
-
 
 
 .section {
@@ -246,14 +241,6 @@ blockquote {
 
 
 
-
-
-
-
-
-
-
-
 .footer {
     background-color: #313131;
     color: white;
@@ -315,5 +302,6 @@ blockquote {
         flex-direction: column;
         align-items: center;
     }
+   
 
 }
